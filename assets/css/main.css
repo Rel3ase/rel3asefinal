@@ -1658,8 +1658,8 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
-		}
-		* {box-sizing:border-box}
+
+			* {box-sizing:border-box}
 
 		/* Slideshow container */
 		.slideshow-container {
@@ -1745,4 +1745,6 @@ input, select, textarea {
 		@keyframes fade {
 		  from {opacity: .4}
 		  to {opacity: 1}
+		
 		}
+		
