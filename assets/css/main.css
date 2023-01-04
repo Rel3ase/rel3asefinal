@@ -1165,7 +1165,7 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-		body.is-article-visible #testbg2:after {
+		body.is-article-visible #testbg3:after {
 			-moz-transform: scale(1.0825);
 			-webkit-transform: scale(1.0825);
 			-ms-transform: scale(1.0825);
@@ -1176,7 +1176,7 @@ input, select, textarea {
 			filter: blur(0.2rem);
 		}
 
-		body.is-preload #testbg2:before {
+		body.is-preload #testbg3:before {
 			background-color: #000000;
 		}
 
