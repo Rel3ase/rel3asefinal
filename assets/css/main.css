@@ -1106,7 +1106,7 @@ input, select, textarea {
 
 /* BG */
 
-	#testbg4 {
+	#testbg5 {
 		-moz-transform: scale(1.0);
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
@@ -1120,7 +1120,7 @@ input, select, textarea {
 		z-index: 1;
 	}
 
-		#testbg4:before, #testbg4:after {
+		#testbg5:before, #testbg5:after {
 			content: '';
 			display: block;
 			position: absolute;
@@ -1149,7 +1149,7 @@ input, select, textarea {
 			z-index: 2;
 		}
 
-		#testbg4:after {
+		#testbg5:after {
 			-moz-transform: scale(1.125);
 			-webkit-transform: scale(1.125);
 			-ms-transform: scale(1.125);
@@ -1158,14 +1158,14 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/testbg4.jpg");
+			background-image: url("../../images/testbg5.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
 			z-index: 1;
 		}
 
-		body.is-article-visible #testbg4:after {
+		body.is-article-visible #testbg5:after {
 			-moz-transform: scale(1.0825);
 			-webkit-transform: scale(1.0825);
 			-ms-transform: scale(1.0825);
@@ -1176,7 +1176,7 @@ input, select, textarea {
 			filter: blur(0.2rem);
 		}
 
-		body.is-preload #testbg4:before {
+		body.is-preload #testbg5:before {
 			background-color: #000000;
 		}
 
