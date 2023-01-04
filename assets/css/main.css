@@ -1106,7 +1106,7 @@ input, select, textarea {
 
 /* BG */
 
-	#bg {
+	#testbg2 {
 		-moz-transform: scale(1.0);
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
@@ -1120,7 +1120,7 @@ input, select, textarea {
 		z-index: 1;
 	}
 
-		#bg:before, #bg:after {
+		#testbg2:before, #testbg2:after {
 			content: '';
 			display: block;
 			position: absolute;
@@ -1149,7 +1149,7 @@ input, select, textarea {
 			z-index: 2;
 		}
 
-		#bg:after {
+		#testbg2:after {
 			-moz-transform: scale(1.125);
 			-webkit-transform: scale(1.125);
 			-ms-transform: scale(1.125);
@@ -1165,7 +1165,7 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-		body.is-article-visible #bg:after {
+		body.is-article-visible #testbg2:after {
 			-moz-transform: scale(1.0825);
 			-webkit-transform: scale(1.0825);
 			-ms-transform: scale(1.0825);
@@ -1176,7 +1176,7 @@ input, select, textarea {
 			filter: blur(0.2rem);
 		}
 
-		body.is-preload #bg:before {
+		body.is-preload #testbg2:before {
 			background-color: #000000;
 		}
 
