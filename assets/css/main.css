@@ -1149,7 +1149,7 @@ input, select, textarea {
 			z-index: 2;
 		}
 
-		#testbg2:after {
+		#bg:after {
 			-moz-transform: scale(1.125);
 			-webkit-transform: scale(1.125);
 			-ms-transform: scale(1.125);
